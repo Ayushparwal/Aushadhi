@@ -5,6 +5,7 @@ interface EmptyStateProps {
   onSampleQuestion: (question: string) => void;
 }
 
+<br></br>
 const EmptyState: React.FC<EmptyStateProps> = ({ onSampleQuestion }) => {
   const sampleQuestions = [
     {

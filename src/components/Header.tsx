@@ -6,7 +6,7 @@ interface HeaderProps {
   onToggleSidebar: () => void;
   onNewChat: () => void;
 }
-
+<br></br>
 const Header: React.FC<HeaderProps> = ({ onToggleSidebar, onNewChat }) => {
   const { theme, toggleTheme } = useTheme();
 
